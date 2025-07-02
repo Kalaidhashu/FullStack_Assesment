@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sample Website</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><img defer="" src="https://lollypop.design/wp-content/uploads/2022/09/logoanimated100.gif" alt="Image"></div>
+    <nav>
+      <a href="#">Global</a>
+      <a href="#">UX UI Design Studio</a>
+    </nav>
+    <ul class="nav-links">
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Process</a></li>
+      <li><a href="#">Industries</a></li>
+      <li><a class="talk" href="#">Let’s Talk</a></li>
+      <li><div class="menu-icon">☰</div></li>
+    </ul>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">
+   
+      <div class="tagline">
+      <p><span class="bar"></span>We're a Global UI UX Design Agency Curating User Experiences That <span class="highlight">wins hearts and awards users fall in love with scale businesses</span></p>
+      </div>
+
+      <div class="stats">
+        <div><strong>Two Billion+</strong><br><span>Lives Touched</span></div>
+        <div><strong>50+</strong><br><span>Global Awards</span></div>
+        <div><strong>1000+</strong><br><span>Clients</span></div>
+      </div>
+    </section>
+    <section class="video-section">
+  <div class="video-wrapper" id="video-wrapper">
+    <img
+      src="https://lollypop.design/wp-content/uploads/2025/06/homepage-video-thumbnail-1-1_11zon.webp"
+      alt="Video Thumbnail"
+      class="video-thumbnail"
+    />
+    <div class="play-button" id="play-button">&#9658;</div>
+  </div>
+</section>
+<script>
+  document.getElementById('play-button').addEventListener('click', function () {
+    const videoWrapper = document.getElementById('video-wrapper');
+    videoWrapper.innerHTML = `
+      <iframe width="100%" height="500"
+        src="https://www.youtube.com/embed/OP9ofBIrs0E?autoplay=1"
+        title="YouTube video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>`;
+  });
+</script>
+<div class="content1">
+  <p>Lollypop Redefines User Experiences Through AI-Powered Innovative, Intuitive, and Impactful Designs!</p>
+</div>
+<div class="content2">
+  Be it turning complex ideas into scalable solutions or redefining your entire brand to be sustainable and futuristic, Lollypop, a global UI/UX design studio, will transform your brand with visually captivating user interface designs and build human-centric products and solutions that seamlessly enhance users' digital experience.
+</div>
+  </main>
+</body>
+</html>
